@@ -1,0 +1,48 @@
+name: elinker_app
+description: "Elinker - Sri Lanka's Verified Gig Network. Find Local Experts & Micro-Jobs."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase Backend
+  supabase_flutter: ^2.5.6
+
+  # Navigation
+  go_router: ^14.2.7
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+
+  # UI & Animations
+  animate_do: ^3.3.4
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.1
+  google_fonts: ^6.2.1
+
+  # Utils
+  intl: ^0.19.0
+  timeago: ^3.7.0
+  url_launcher: ^6.3.0
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.2
+  connectivity_plus: ^6.0.3
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
